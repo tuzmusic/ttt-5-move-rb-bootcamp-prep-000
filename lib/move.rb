@@ -11,6 +11,6 @@ def input_to_index(i)
   sq = i.to_i - 1
 end
 
-def move(board, index, char)
+def move(board, index, char = "X")
   board[index] = char
 end
